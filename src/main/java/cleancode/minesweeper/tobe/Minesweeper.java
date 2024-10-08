@@ -4,8 +4,6 @@ import cleancode.minesweeper.tobe.gamelavel.GameLevel;
 import cleancode.minesweeper.tobe.io.ConsoleInputHandler;
 import cleancode.minesweeper.tobe.io.ConsoleOutputHandler;
 
-import java.util.Arrays;
-
 public class Minesweeper {
     private final GameBoard gameBoard;
     private final BoardIndexConverter boardIndexConverter = new BoardIndexConverter();
